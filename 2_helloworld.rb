@@ -2,7 +2,7 @@ puts "Hello World!"
 
 print "Ausgabe ohne Zeilenumbruch - "
 
-p "Die kürzere Variante"
+p "Die k\ürzere Variante"
 
 =begin
 => Hello World

@@ -1,9 +1,9 @@
-class Hallo
-   def gruessen
-      puts "Hello #{@name}!"
+class Testklasse
+   def hallosagen(name)
+      puts "Hallo #{name}!"
    end
 end
 
-h = Hallo.new("Ruby")
+testkl = Testklasse.new
 
-h.gruessen
+testkl.hallosagen("Anton")
