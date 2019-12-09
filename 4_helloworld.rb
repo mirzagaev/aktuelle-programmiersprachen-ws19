@@ -2,7 +2,8 @@ puts "Hello World!"
 
 print "Ausgabe ohne Zeilenumbruch - "
 
-p "Die k\ürzere Variante"
+p "Die kürzere Variante"	# p akzeptiert keine Umlaute
+puts "Die kürzere Variante"
 
 =begin
 => Hello World

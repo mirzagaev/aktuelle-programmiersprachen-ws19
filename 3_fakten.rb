@@ -1,7 +1,7 @@
 class Testklasse
-   def hallosagen(name)
-      puts "Hallo #{name}!"
-   end
+	def hallosagen(name)
+		puts "Hallo #{name}!"
+	end
 end
 
 testkl = Testklasse.new
