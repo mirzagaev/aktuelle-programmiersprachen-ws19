@@ -1,5 +1,7 @@
-def vorstellen(*args)
+def vorstellen (*args)
 	case args.size
+		when 0
+			puts "Nix bekommen!"
 		when 1
 			puts "Hallo #{args[0]}!"
 		when 2
@@ -9,6 +11,7 @@ def vorstellen(*args)
 	end
 end
 
+vorstellen
 vorstellen "Anton"			# möglich, aber ggf. Warnung
 vorstellen("Dana", 21)		# eindeutig und besser
 vorstellen("Dana", 21, "Stuttgart")
@@ -20,6 +23,7 @@ def methodenname(Argumente)
 end
 
 Konsolenausgabe:
+=> Nix bekommen!
 => Hallo Anton!
 => Dana ist 21 Jahre alt!
 => Dana ist 21 Jahre alt und lebt in Stuttgart!
